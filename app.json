@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "react-native-recurlly_javascriptmastery",
-    "slug": "react-native-recurlly_javascriptmastery",
+    "name": "JSM_recurrly",
+    "slug": "jsm-recurrly",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "reactnativerecurllyjavascriptmastery",
+    "scheme": "jsmrecurrly",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -51,7 +51,9 @@
             "./assets/fonts/PlusJakartaSans-Light.ttf"
           ]
         }
-      ]
+      ],
+      "@clerk/expo",
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true,
